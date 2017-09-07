@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Rating</title>
+</head>
+<body>
+<h1>Artist name</h1>
+<form id="numberForm" action="#">
+  <fieldset>
+    <legend>rate</legend>
+    <label for="numberInput">Enter a number between 1 and 5:</label>
+    <input id="numberInput" type="number"/>
+    <input type="submit" id="submitButton" onclick="validateField()">Do it!</input>
+  </fieldset>
+
+  <fieldset>
+    <div class="raty raty-read">
+      <img id="onestar" alt="1" src="https://dz8pdz0wfluv5.cloudfront.net/star-full.svg" title="gorgeous">
+      <img id="twostars" alt="2" src="https://dz8pdz0wfluv5.cloudfront.net/star-full.svg" title="gorgeous">
+      <img id="threestars" alt="3" src="https://dz8pdz0wfluv5.cloudfront.net/star-full.svg" title="gorgeous">
+      <img id="fourstars" alt="4" src="https://dz8pdz0wfluv5.cloudfront.net/star-full.svg" title="gorgeous">
+      <img id="fivestars" alt="5" src="https://dz8pdz0wfluv5.cloudfront.net/star-half.svg" title="gorgeous">
+    </div>
+  </fieldset>
+</form>
+
+<!--<button onclick="showStars(4)">4 stars</button>-->
+<!--<button onclick="showStars(4.5)">4.5 stars</button>-->
+
+<script src="app.js"></script>
+</body>
+</html>
